@@ -27,31 +27,77 @@
     </style>
     -->
 
+    <style>
+        body {
+            background: rgb(31, 32, 32);
+            color: rgb(226, 226, 226);
+            font-family: Roboto, Helvetica, Arial, sans-serif;
+            text-align: center;
+        }
+
+        article {
+            border: 1px solid #ccc;
+            padding: 50px; /* empty space inside */
+
+            /* same sa 50px auto 50px auto  */
+            /* ordering is up left down right */
+            /* this form means up+down and */
+            margin: 50px auto; /* margin empty space outside */
+
+            max-width: 420px;
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 16px;
+            text-transform: uppercase;
+            margin-top: 8px;
+        }
+
+        h1, strong, em {
+            color: orange;
+        }
+
+        footer img {
+            width: 150px;
+            border-radius: 50%;
+            border: 2px solid orange;
+        }
+
+    </style>
+
 </head>
 
 <!-- page content -->
 <body>
 
-    <h1>This is a title</h1>
-    
-    
-    <p>This is <em>emphasis</em> text</p>
-    <p>This is <i>italic</i> text</p>
-    <p>This is <strong>strongly important</strong> text</p>
-    <p>This is just a <b>bold</b> text</p>
+    <article>
 
-    <p>This is <u>underlined</u> text.</p>
+        <header>
+            <h1>H1 title</h1>
+            <h2>H2 title</h2>
+            <!-- <h3>H3 title</h3> -->
+        </header>
 
-    <p>
-        Lorem ipsum <strike>hue</strike> dolor sit amet, consectetur adipisicing elit. Tempore similique accusantium ipsa, consequatur neque repellat temporibus doloribus aliquam sequi ab sed blanditiis odio! Quas voluptatibus alias, necessitatibus repellendus laboriosam ipsum!
-    </p>
+        <p>This is <em>emphasis</em> text. This is <i>italic</i> text</p>
+        <p>This is <strong>strongly important</strong> text. This is just a <b>bold</b> text</p>
 
-    <p>
+        <p>This is <u>underlined</u> text.</p>
+
+        <p>
+            Lorem ipsum <strike>hue</strike> dolor sit amet, consectetur adipisicing elit. Tempore similique accusantium ipsa, consequatur neque repellat temporibus doloribus aliquam sequi ab sed blanditiis odio! Quas voluptatibus alias, necessitatibus repellendus laboriosam ipsum!
+        </p>
+
+        <footer>
         <img 
             src="https://img.freepik.com/premium-photo/cute-muzzle-black-cat-closeup-image-isolated-black-background_246930-2747.jpg" 
             alt="cute black cat picture">
-    </p>
+        </footer>
 
+    </article>
 </body>
 
 </html>
