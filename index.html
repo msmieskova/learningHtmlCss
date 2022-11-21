@@ -67,6 +67,17 @@
             border: 2px solid orange;
         }
 
+        ol, ul {
+            /* text-align: left; */
+            color: rgb(211, 152, 152);
+            font-size: 75%;
+        }
+
+        li {
+            /* bullets will be in the center in all browsers */
+            list-style-position: inside;
+        }
+
     </style>
 
 </head>
@@ -82,19 +93,39 @@
             <!-- <h3>H3 title</h3> -->
         </header>
 
-        <p>This is <em>emphasis</em> text. This is <i>italic</i> text</p>
-        <p>This is <strong>strongly important</strong> text. This is just a <b>bold</b> text</p>
-
-        <p>This is <u>underlined</u> text.</p>
-
         <p>
+            <em>Emphasis</em> text. <i>Italic</i> text.
+            This is <u>underlined</u> text.
+        </p>
+        <p>
+            This is <strong>strongly important</strong> text. 
+            This is just a <b>bold</b> text. 
+        </p>
+
+        <ol start="9" reversed>
+            <li>Mix flour, baking powder, sugar, and salt.</li>
+            <li>In another bowl, mix eggs, milk, and oil.</li>
+            <li>Stir both mixtures together.</li>
+            <li>Fill muffin tray 3/4 full.</li>
+            <li>Bake for 20 minutes.</li>
+        </ol>
+
+        <ul>
+            <li>Mix flour, baking powder, sugar, and salt.</li>
+            <li>In another bowl, mix eggs, milk, and oil.</li>
+            <li>Stir both mixtures together.</li>
+            <li>Fill muffin tray 3/4 full.</li>
+            <li>Bake for 20 minutes.</li>
+        </ul>
+
+        <p title="ugly text">
             Lorem ipsum <strike>hue</strike> dolor sit amet, consectetur adipisicing elit. Tempore similique accusantium ipsa, consequatur neque repellat temporibus doloribus aliquam sequi ab sed blanditiis odio! Quas voluptatibus alias, necessitatibus repellendus laboriosam ipsum!
         </p>
 
         <footer>
         <img 
-            src="https://img.freepik.com/premium-photo/cute-muzzle-black-cat-closeup-image-isolated-black-background_246930-2747.jpg" 
-            alt="cute black cat picture">
+            src="./images/terry.jpg" 
+            alt="cute cat picture">
         </footer>
 
     </article>
