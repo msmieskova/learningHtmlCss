@@ -22,3 +22,9 @@ div.name {
       flex: 0 100%
     }
 } */
+
+/* TODO
+when the window is wider, more pictures fit in
+pictures are fixed size no matter the window width
+text does not randomly fall apart when changed size of the picture
+*/
