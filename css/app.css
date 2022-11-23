@@ -1,0 +1,99 @@
+    strong {
+        color: red;
+        font-size: larger;
+        font-weight: normal;
+    }
+
+    em {
+        color: purple;
+        font-size: larger;
+    }
+
+    body {
+        background: rgb(31, 32, 32);
+        /* background: url('../images/terry.jpg'); */
+        color: rgb(226, 226, 226);
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        text-align: center;
+    }
+
+    article {
+        border: 1px solid #ccc;
+        padding: 50px; /* empty space inside */
+
+        /* same sa 50px auto 50px auto  */
+        /* ordering is up left down right */
+        /* this form means up+down and */
+        margin: 50px auto; /* margin empty space outside */
+
+        max-width: 420px;
+    }
+
+    h1, h2, h3 {
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 8px;
+    }
+
+    h1, strong, em {
+        color: orange;
+    }
+
+    a {
+        color: yellow;
+        font-weight: bold;
+    }
+
+    footer img {
+        width: 150px;
+        border-radius: 50%;
+        border: 2px solid orange;
+    }
+
+    ol, ul {
+        text-align: left;
+        color: rgb(244, 248, 188);
+        font-size: 75%;
+    }
+
+    li {
+        /* bullets/dots will be alligned with text properly, e.g. in the center */
+        /* in some browsers they are alligned to the left no matter the text allignment */
+        list-style-position: inside;
+    }
+
+    li.highlighted {
+        color: aqua;
+    }
+
+    /* will not work, ul does not have that class */
+    /* ul.highlighted {
+        color: aqua;
+    } */
+
+    .chunky {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    /* hover for mouse, active for fingers */
+    a:hover, a:active {
+        color: palevioletred;
+    }
+
+    footer a:hover img, 
+    footer a:active img {
+        border-color: palevioletred;
+    }
+
+    #test-id {
+        color: blueviolet;
+    }
+
+    nav a {
+        color: aquamarine;
+    }
