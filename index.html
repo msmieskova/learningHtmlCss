@@ -11,90 +11,7 @@
     
     <!-- page name (displayed in browser tab) -->
     <title>My first test page 🥳 </title>
-
-    <!-- base styles
-    <style>
-        strong {
-            color: red;
-            font-size: larger;
-            font-weight: normal;
-        }
-
-        em {
-            color: purple;
-            font-size: larger;
-        }
-    </style>
-    -->
-
-    <style>
-        body {
-            background: rgb(31, 32, 32);
-            color: rgb(226, 226, 226);
-            font-family: Roboto, Helvetica, Arial, sans-serif;
-            text-align: center;
-        }
-
-        article {
-            border: 1px solid #ccc;
-            padding: 50px; /* empty space inside */
-
-            /* same sa 50px auto 50px auto  */
-            /* ordering is up left down right */
-            /* this form means up+down and */
-            margin: 50px auto; /* margin empty space outside */
-
-            max-width: 420px;
-        }
-
-        h1, h2, h3 {
-            margin: 0;
-        }
-
-        h2 {
-            font-size: 16px;
-            text-transform: uppercase;
-            margin-top: 8px;
-        }
-
-        h1, strong, em {
-            color: orange;
-        }
-
-        a {
-            color: yellow;
-            font-weight: bold;
-        }
-
-        footer img {
-            width: 150px;
-            border-radius: 50%;
-            border: 2px solid orange;
-        }
-
-        ol, ul {
-            text-align: left;
-            color: rgb(244, 248, 188);
-            font-size: 75%;
-        }
-
-        li {
-            /* bullets/dots will be alligned with text properly, e.g. in the center */
-            /* in some browsers they are alligned to the left no matter the text allignment */
-            list-style-position: inside;
-        }
-
-        /* hover for mouse, active for fingers */
-        a:hover, a:active {
-            color: palevioletred;
-        }
-
-        footer a:hover img, 
-        footer a:active img {
-            border-color: palevioletred;
-        }
-
-    </style>
+    <link rel="stylesheet" href="./css/app.css">
 
 </head>
 
@@ -118,6 +35,16 @@
             This is just a <b>bold</b> text. 
         </p>
 
+        <!-- div is an elemenent without default properties or appearance unlike H1 for example -->
+        <!-- no spaces before and after element -->
+        <!-- div has no meaning, dont overuse -->
+        <div id="test-id">
+            This is a div text.
+        </div>
+        <div>
+            This is a div text.
+        </div>
+
         <!-- <ol start="9" reversed>
             <li>Mix flour, baking powder, sugar, and salt.</li>
             <li>In another bowl, mix eggs, milk, and oil.</li>
@@ -130,7 +57,8 @@
             <li><a href="https://www.linkedin.com/in/martina-smieskova/">LinkedIn</a></li>
             <li><a href="tel:+123456789">Phone</a></li>
             <li><a href="mailto:smieskova.martina@gmail.com">Mail</a></li>
-            <li>or in person :)</li>
+            <li class="highlighted">or in person :)</li>
+            <li class="highlighted chunky">in person but chunky</li>
         </ul>
 
         <!-- <ul>
