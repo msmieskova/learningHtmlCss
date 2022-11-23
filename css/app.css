@@ -11,6 +11,7 @@
 
     body {
         background: rgb(31, 32, 32);
+        /* background: url('../images/terry.jpg'); */
         color: rgb(226, 226, 226);
         font-family: Roboto, Helvetica, Arial, sans-serif;
         text-align: center;
