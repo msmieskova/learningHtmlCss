@@ -61,6 +61,11 @@
             color: orange;
         }
 
+        a {
+            color: yellow;
+            font-weight: bold;
+        }
+
         footer img {
             width: 150px;
             border-radius: 50%;
@@ -69,7 +74,7 @@
 
         ol, ul {
             text-align: left;
-            color: rgb(211, 152, 152);
+            color: rgb(244, 248, 188);
             font-size: 75%;
         }
 
@@ -77,6 +82,16 @@
             /* bullets/dots will be alligned with text properly, e.g. in the center */
             /* in some browsers they are alligned to the left no matter the text allignment */
             list-style-position: inside;
+        }
+
+        /* hover for mouse, active for fingers */
+        a:hover, a:active {
+            color: palevioletred;
+        }
+
+        footer a:hover img, 
+        footer a:active img {
+            border-color: palevioletred;
         }
 
     </style>
@@ -103,30 +118,43 @@
             This is just a <b>bold</b> text. 
         </p>
 
-        <ol start="9" reversed>
+        <!-- <ol start="9" reversed>
             <li>Mix flour, baking powder, sugar, and salt.</li>
             <li>In another bowl, mix eggs, milk, and oil.</li>
             <li>Stir both mixtures together.</li>
             <li>Fill muffin tray 3/4 full.</li>
             <li>Bake for 20 minutes.</li>
-        </ol>
+        </ol> -->
 
         <ul>
+            <li><a href="https://www.linkedin.com/in/martina-smieskova/">LinkedIn</a></li>
+            <li><a href="tel:+123456789">Phone</a></li>
+            <li><a href="mailto:smieskova.martina@gmail.com">Mail</a></li>
+            <li>or in person :)</li>
+        </ul>
+
+        <!-- <ul>
             <li>Mix flour, baking powder, sugar, and salt.</li>
             <li>In another bowl, mix eggs, milk, and oil.</li>
             <li>Stir both mixtures together.</li>
             <li>Fill muffin tray 3/4 full.</li>
             <li>Bake for 20 minutes.</li>
-        </ul>
+        </ul> -->
 
         <p title="ugly text">
-            Lorem ipsum <strike>hue</strike> dolor sit amet, consectetur adipisicing elit. Tempore similique accusantium ipsa, consequatur neque repellat temporibus doloribus aliquam sequi ab sed blanditiis odio! Quas voluptatibus alias, necessitatibus repellendus laboriosam ipsum!
+            Lorem ipsum <strike>hue</strike> dolor sit amet, <a href="https://google.com">consectetur</a>  adipisicing elit. Tempore similique accusantium ipsa, consequatur neque repellat temporibus doloribus aliquam sequi ab sed blanditiis odio! Quas voluptatibus alias, necessitatibus repellendus laboriosam ipsum!
         </p>
 
         <footer>
-        <img 
-            src="./images/terry.jpg" 
-            alt="cute cat picture">
+            <a href="https://google.com">
+                <img src="./images/terry.jpg" alt="cute cat picture">
+            </a>
+
+            <!-- <a href="./images/terry.jpg">
+                <img 
+                    src="./images/terry.jpg" 
+                    alt="cute cat picture">
+            </a> -->
         </footer>
 
     </article>
