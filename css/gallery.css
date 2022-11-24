@@ -1,3 +1,30 @@
 img {
     width: 150px;
 }
+
+#design-cast {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+  
+.member {
+    /* flex: 0 25%; */
+    flex: none;
+    margin: 1% 1% 45px 1%;
+}
+  
+.member img {
+    max-width: 100%;
+    display: block;
+}
+
+
+div.name {
+    text-align: center;
+}
+  
+/* @media (max-width:480px) {
+    .member {
+      flex: 0 100%
+    }
+} */
