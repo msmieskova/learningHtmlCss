@@ -23,9 +23,14 @@ td {
 } */
 
 tbody tr:nth-child(even) {
-    background: grey;
+    background: rgba(194, 193, 193, 0.5);
 }
 
 tbody td:nth-child(odd) {
+    background: rgba(194, 193, 193, 0.5);
     color: blueviolet;
+}
+
+tr:hover {
+    background: red;
 }
