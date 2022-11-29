@@ -1,0 +1,128 @@
+/* can be used for "debugging" */
+/* * {
+    outline: 1px solid black;
+} */
+
+button {
+    border: none;
+}
+
+.btn {
+    /* border: 1px solid #2196F3; */
+    background-color: #2196F3;
+    border-radius: 4px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    height: 42px;
+    cursor: pointer;
+    font-weight: 400;
+
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+                0px 2px 2px rgba(0, 0, 0, 0.14),
+                0px 1px 5px rgba(0, 0, 0, 0.12);
+
+    padding: 0px 20px 0px 20px;
+}
+
+.btn-link {
+    text-decoration: none;
+}
+
+.btn-success {
+    background: #4CAF50;
+    /* border: #4CAF50; */
+}
+
+.btn-warning {
+    background: #ED6C02;
+    /* border: #ED6C02; */
+}
+
+.btn-error {
+    background: #df281b;
+    /* border: #df281b; */
+}
+
+.btn:hover {
+    background-image: linear-gradient(rgb(0 0 0/25%) 0 0);
+}
+
+.test-overflow {
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    overflow: auto;
+    margin: 0px 15px;
+}
+
+.full-logo {
+    background: black;
+    color: white;
+    height: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: fit-content;
+    padding: 4px 2px 3px 3px;
+    cursor: pointer;
+    
+}
+
+.logo-highlight {
+    background: orange;
+    color: black;
+    border-radius: 3px;
+    margin: 0px 2px 0px 3px;
+    padding: 0px 2px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+small {
+    font-weight: bold;
+    color: blueviolet;
+    display: block;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+.text-left {
+    float: left;
+}
+
+.paragraph-wrapper {
+    padding: 20px;
+}
+
+.cat-quote {
+    background: #333;
+    color: beige;
+    
+}
+
+blockquote.cat-quote {
+    width: 235px;
+}
+
+#excuse-me {
+    float: left;
+}
+
+area {
+    display: block;
+}
