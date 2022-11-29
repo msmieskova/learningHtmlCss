@@ -1,0 +1,113 @@
+body {
+    width: 960px;
+    margin: 0 auto;
+    font: 18px/30px Geogia, serif;
+    color: #222;
+}
+
+a {
+    color: #2455c3;
+    text-decoration: none;
+}
+
+p {
+    margin: 0 0 24px 0;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+.logo {
+    margin: 0;
+    position: relative;
+    top: -20px;
+    z-index: 2;
+}
+
+.logo a {
+    background: url(../img/logo.png) center top no-repeat;
+    display: block;
+    width: 960px;
+    height: 105px;
+    text-indent: -9999px;
+}
+
+.cover {
+    background: white url(../img/background.png) 60% 0px no-repeat;
+    height: 470px;
+    margin-top: -85px;
+    position: relative;
+    z-index: 1;
+}
+
+.badge {
+    background: #bb3825;
+    background: rgba(187, 56, 37, 0.85);
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    color: white;
+    font-size: 54px;
+    line-height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: -5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+
+}
+
+.badge:hover,
+.badge:focus {
+    text-decoration: none;
+}
+
+.badge small {
+    font-size: 16px;
+    line-height: 16px;
+    font-style: italic;
+    letter-spacing: 0;
+    font-weight: normal;
+    font-family: Georgia, serif;
+    display: block;
+    padding-top: 28px;
+}
+
+.post-header {
+    text-align: center;
+}
+
+.post-title {
+    font-size: 48px;
+    line-height: 56px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin: 0 0 5px;
+}
+
+.post-meta {
+    font-style: italic;
+}
+
+.post-meta time::before {
+    content: ' • ';
+    font-style: normal;
+}
+
+.author {
+    font-style: normal;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: Arial;
+    margin: 0 3px;
+}

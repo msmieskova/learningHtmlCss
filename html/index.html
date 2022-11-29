@@ -1,101 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- page settings -->
 <head>
-    
-    <!-- correct text display -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- correct zoom on devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- page name (displayed in browser tab) -->
-    <title>My first test page 🥳 </title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-    <!-- connection to css file -->
-    <link rel="stylesheet" href="../css/app.css">
+    <!-- web icon displayed in the browser tab -->
+    <link rel="icon" href="../img/terry-icon.ico" type="image/x-icon">
+    
+    <link rel="stylesheet" href="../css/style.css">
 
+    <title>Learning more</title>
 </head>
 
-<!-- page content -->
 <body>
+    <p id="page-top">
+        this is a top of the page
+        <img src="../img/terry-icon.ico" alt="terry icon">
+    </p>
+    
+    <div class="buttons">
+        <a href="https://www.google.com/" class="btn-link" target="_blank">
+            <button class="btn" type="button">Link 1</button>
+        </a>
+        <!-- link button needs to use javascript -->
+        <!-- <button class="btn" type="button" onclick="">Link 2</button> -->
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-error">Error</button>
+    </div>
+    
+    <div class="paragraph-wrapper">
+        <p class="test-overflow text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim provident corrupti ad voluptas deleniti repellendus eos reprehenderit fugit delectus. Ducimus natus possimus deserunt molestiae nisi repellat culpa perferendis, aut error!</p>
 
-    <article>
+        <p class="test-overflow">a</p>
+    </div>
 
-        <header>
-            <h1>H1 title</h1>
-            <h2>H2 title</h2>
-            <!-- <h3>H3 title</h3> -->
-        </header>
+    <div class="full-logo" title="pornhub logo but no redirect">
+       <span>Porn</span><span class="logo-highlight">hub</span>
+    </div>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="./gallery.html">Gallery</a>
-                </li>
-            </ul>
-        </nav>
+    <p>
+        <small>30 minutes ago</small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate vitae esse dolore repellendus eum veniam. Cumque quae, voluptatum maiores temporibus error, sapiente corporis, facere labore repudiandae accusantium eos voluptatibus repellat!
+    </p>
+    <p>
+        <small>2 hours ago</small> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab repudiandae ducimus facilis facere iusto. Amet expedita neque recusandae ratione porro. Quis aliquam repudiandae hic explicabo placeat sequi porro dignissimos commodi.
+    </p>
 
-        <p>
-            <em>Emphasis</em> text. <i>Italic</i> text.
-            This is <u>underlined</u> text.
-        </p>
-        <p>
-            This is <strong>strongly important</strong> text. 
-            This is just a <b>bold</b> text. 
-        </p>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">The table header</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The table body</td>
+                <td>with two columns</td>
+            </tr>
+        </tbody>
+    </table>
 
-        <!-- div is an elemenent without default properties or appearance unlike H1 for example -->
-        <!-- no spaces before and after element -->
-        <!-- div has no meaning, dont overuse -->
-        <div id="test-id">
-            This is a div text.
-        </div>
-        <div>
-            This is a div text.
-        </div>
+    <hr>
+    
+    <p title="This is a tooltip">Lorem ipsum dolor sit <em>hover to display tooltip</em> adipisicing elit. Eius adipisci amet consectetur sint reiciendis numquam nemo? Ipsum at est saepe quasi <sub>ipsa</sub> voluptatibus <sup>id</sup> accusamus, non quisquam, sequi corporis et.</p>
 
-        <!-- <ol start="9" reversed>
-            <li>Mix flour, baking powder, sugar, and salt.</li>
-            <li>In another bowl, mix eggs, milk, and oil.</li>
-            <li>Stir both mixtures together.</li>
-            <li>Fill muffin tray 3/4 full.</li>
-            <li>Bake for 20 minutes.</li>
-        </ol> -->
+    <div>
+        <img id="excuse-me" src="../img/excuseme.gif" alt="excuse me gif">
+        <pre>
+            This is
+            usage of <del>deleted</del>
+            pre tag, which  <mark>  keeps formatting</mark>
+            from <ins>inserted</ins> the code
+        </pre>
+    </div>
 
-        <ul>
-            <li><a href="https://www.linkedin.com/in/martina-smieskova/">LinkedIn</a></li>
-            <li><a href="tel:+123456789">Phone</a></li>
-            <li><a href="mailto:smieskova.martina@gmail.com">Mail</a></li>
-            <li class="highlighted">or in person :)</li>
-            <li class="highlighted chunky">in person but chunky</li>
-        </ul>
+    <p>Here is a long quote of a wise cat:</p>
+    <blockquote class="cat-quote">
+        Meow meow, meow meow <em>MEOW</em>!
+    </blockquote>
 
-        <!-- <ul>
-            <li>Mix flour, baking powder, sugar, and salt.</li>
-            <li>In another bowl, mix eggs, milk, and oil.</li>
-            <li>Stir both mixtures together.</li>
-            <li>Fill muffin tray 3/4 full.</li>
-            <li>Bake for 20 minutes.</li>
-        </ul> -->
+    <p>Here is a short quote of a wise cat:</p>
+    <q class="cat-quote">
+        Meow meow, meow meow <em>MEOW</em>!
+    </q>
 
-        <p title="ugly text">
-            Lorem ipsum <strike>hue</strike> dolor sit amet, <a href="https://google.com">consectetur</a>  adipisicing elit. Tempore similique accusantium ipsa, consequatur neque repellat temporibus doloribus aliquam sequi ab sed blanditiis odio! Quas voluptatibus alias, necessitatibus repellendus laboriosam ipsum!
-        </p>
+    <p>
+        <!-- will underline and show description tooltip -->
+        I am <abbr title="Lord Meowses Meowser II.">Meowses</abbr>
+    </p>
 
-        <footer>
-            <a href="https://google.com">
-                <img src="../images/terry.jpg" alt="cute cat picture">
-            </a>
+    <address>
+        Name <br>
+        Street and number <br>
+        City and Zip code <br>
+        Coutry
+    </address>
 
-            <!-- <a href="./images/terry.jpg">
-                <img 
-                    src="./images/terry.jpg" 
-                    alt="cute cat picture">
-            </a> -->
-        </footer>
+    <p>
+        The best book is <cite>Meow</cite> written by Meowses.
+    </p>
 
-    </article>
+    <bdo dir="rtl">Confused meow</bdo>
+
+    <div>
+        <!-- bookmarks -->
+        <a href="#page-top">go to top</a>
+        <a href="blog.html#blog-top">go to blog top</a>
+    </div>
+    
+    <!-- responsive usage of pictures 
+        <picture>
+        <source media="(min-width: 651px, max-width: 700px)" 
+            srcset="../img/excuseme.gif">
+        <source media="(max-width: 650px)" srcset="../img/author.jpg">
+        <img src="../img/background.png" style="width:auto;">
+    </picture> -->
+    
+    <img class="food" src="../img/food.jpg" alt="food" usemap="#food-map">
+
+    <map name="food-map">
+        <area shape="circle" coords="200, 910, 165" href="https://www.google.com/" alt="soup">
+        <area shape="circle" coords="580, 910, 165" href="https://www.google.com/" alt="spaghetti">
+        <area shape="circle" coords="960, 910, 165" href="https://www.google.com/" alt="egg">
+        <area shape="circle" coords="1340, 910, 165" href="https://www.google.com/" alt="cream soup">
+        <area shape="circle" coords="1715, 910, 165" href="https://www.google.com/" alt="croissant">
+    </map>
+
+    <!-- TODO https://www.w3schools.com/html/html_tables.asp -->
+
 </body>
-
 </html>
