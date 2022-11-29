@@ -27,7 +27,7 @@ a:focus {
 }
 
 .logo a {
-    background: url(../img/logo.png) center top no-repeat;
+    background: url(../images/logo.png) center top no-repeat;
     display: block;
     width: 960px;
     height: 105px;
@@ -35,7 +35,7 @@ a:focus {
 }
 
 .cover {
-    background: white url(../img/background.png) 60% 0px no-repeat;
+    background: white url(../images/background.png) 60% 0px no-repeat;
     height: 470px;
     margin-top: -85px;
     position: relative;
