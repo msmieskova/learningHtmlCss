@@ -31,6 +31,7 @@ tbody td:nth-child(odd) {
     color: blueviolet;
 }
 
-tr:hover {
-    background: red;
+tbody tr:hover {
+    background: black;
+    color: white;
 }
