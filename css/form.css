@@ -1,0 +1,71 @@
+* {
+    padding: none;
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: none;
+}
+
+.profile-reg {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 2% 0%;
+}
+
+.wrap {
+    margin: 5% 10%;
+}
+
+label {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 12px;
+    line-height: 24px;
+    /* height: 14px; */
+}
+
+.input-wrap {
+    width: 100%;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#gdpr {
+    width: auto;
+    vertical-align: middle;
+    margin: 0;
+}
+
+label[for="gdpr"] {
+    font-size: 10px;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    background-color: #2196F3;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    height: 42px;
+    cursor: pointer;
+}
