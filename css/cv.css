@@ -17,20 +17,31 @@ header {
     position: -webkit-sticky;
     position: sticky;
 	top: 0;  
+}
+
+header, footer {
     width: inherit;
     z-index: 1;
-    background-color: aqua;
+    background-color: rgb(16, 25, 58);
 }
 
 #navigation {
-    background-color: rgb(144, 172, 113);
+    /* background-color: rgb(144, 172, 113); */
     text-align: center;
     width: 50%;
     margin: 0 25%;
+    font-size: 20px;
 }
 
 #navigation ul li {
     display: inline-block;
+    padding: 1%;
+}
+
+#navigation ul li a,
+#navigation ul li a:visited {
+    text-decoration: none;
+    color: rgb(179, 196, 255);
 }
 
 main {
@@ -40,7 +51,6 @@ main {
 }
 
 footer {
-    background-color: aqua;
     text-align: center;
 }
 
@@ -52,6 +62,12 @@ section {
 }
 
 .section-title {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-subtitle {
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -83,6 +99,10 @@ section {
     flex-direction: row-reverse;
 }
 
-.right {
+.heading-right {
     text-align: right;
+}
+
+.heading-left {
+    text-align: left;
 }
