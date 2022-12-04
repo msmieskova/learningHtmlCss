@@ -42,16 +42,16 @@ section {
 .section-text {
     width: 70%;
     text-align: justify;
-    /* column-gap: 5%; */
+    justify-content: space-between;
 }
 
-.section-picture {
+.section-picture-wrapper {
     display: inherit;
     width: 25%;
     align-items: center;
 }
 
-.section-picture img {
+.section-picture {
     max-width: 100%;
     height: auto;
     vertical-align: middle;
