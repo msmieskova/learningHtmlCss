@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border: none;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, rgb(122, 175, 255), rgb(255, 168, 255));
+}
+
+.form-wrapper {
+    width: 350px;
+    margin: auto;
+}
+
+.profile-reg {
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding: 5% 0%;
+    /* background: white;   */
+    background: rgb(254, 247, 255);
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.wrap {
+    margin: 5% 10%;
+}
+
+label {
+    text-transform: uppercase;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(92, 92, 92);
+}
+
+.input-wrap {
+    width: 100%;
+}
+
+input {
+    /* border: 1px solid black; */
+    border-bottom: 1px solid rgb(189, 189, 189);
+    line-height: 30px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+}
+
+#gdpr {
+    width: auto;
+    vertical-align: middle;
+    margin: 0;
+}
+
+label[for="gdpr"] {
+    font-size: 12px;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    background-color: #7cc1fa;
+    background: rgb(207, 165, 255);
+    border-radius: 4px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-style: normal;
+    text-transform: uppercase;
+    height: 42px;
+    cursor: pointer;
+    /* font-weight: bold; */
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
